@@ -1,8 +1,9 @@
 package java;
 
-public class article  {
+import java.io.Serializable;
 
-	
+public class article {
+
 	public int id;
 	public String title;
 	public String body;

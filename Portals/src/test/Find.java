@@ -55,12 +55,12 @@ public class Find extends HttpServlet {
 		
 		HttpSession session = request.getSession();
 		//Á´½ÓURL
-		String url = "jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_portalsbupt";
+		String url = "jdbc:mysql://localhost:3306/demo";
 		Connection conn = null;
 		Statement stmt = null;
 		
 		try {
-			conn = (Connection) DriverManager.getConnection(url,"13ny31jzn1","xj5i4hl4lzlk04h2kxkx2l0l3w025m0l505100jh");
+			conn = (Connection) DriverManager.getConnection(url,"root","");
 			stmt = (Statement) conn.createStatement();
 			if(conn!=null)
 			{

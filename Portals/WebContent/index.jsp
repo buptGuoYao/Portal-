@@ -96,7 +96,7 @@
 					<div class="banner one">
 						<div class="container">
 							<div class="navigation text-center">
-								<span class="menu"><img src="images/888.jpg" alt=""/></span>
+								<span class="menu"><img src="index.jpg" alt=""/></span>
 										<ul class="nav1">
 										<li><a class="active" href="index.jsp">心 · 窝</a></li>
 										<li><a href="about.jsp">心 · 阅读</a></li>
@@ -107,6 +107,17 @@
 										<li><a href="contact.jsp">心 · 高校</a></li>
 										<div class="clearfix"></div>
 									</ul>
+									
+										<!-- script for menu -->
+										<script> 
+											$( "span.menu" ).click(function() {
+											$( "ul.nav1" ).slideToggle( 300, function() {
+											 // Animation complete.
+											});
+											});
+										</script>
+									<!-- //script for menu -->
+									
 								
 
 							</div>
@@ -203,34 +214,34 @@
 			<p>“心窝”主要针对大学生心理健康服务市场，意在通过平台的服务为大学生解决心理健康问题，建立大学生心理健康档案，营造一条专业化、深度化的大学生心理健康服务产业链。并立志逐步发展成为中国最大的线上心理健康服务平台。</p>
 		</div>
 		<div class="welcome-grids">
-			<div class="col-md-13 welcome-grid-img">
+			<div class="col-md-4 welcome-grid-img">
 				<img src="images/3.png" alt=""/>
 				<div class="wel-pos">
 				</div>
 			</div>
-			<div class="col-md-13 welcome-grid">
+			<div class="col-md-4 welcome-grid">
 				<div class="welcome-gd second">
 					<p>中国最大的心理健康交流平台，解决中国庞大的人口基数和工作压力下的心理健康问题，为减少中国庞大的抑郁症人群、高发的自杀事件等贡献自己的力量。  
 					</p>
 				</div>
 			</div>
-			<div class="col-md-13 welcome-grid-img">
+			<div class="col-md-4 welcome-grid-img">
 				<img src="images/2.png" alt=""/>
 				<div class="wel-pos">
 				</div>
 			</div>
-			<div class="col-md-13 welcome-grid">
+			<div class="col-md-4 welcome-grid">
 				<div class="welcome-gd second">
 					<p>为现如今中国稀缺的专业心理咨询师资源提供“造血”能力的平台，让有志于投身中国心理健康咨询事业的人能够有一个学习心理知识和初步接触心理亚健康人群的机会。
 					</p>
 				</div>
 			</div>
-			<div class="col-md-13 welcome-grid-img">
+			<div class="col-md-4 welcome-grid-img">
 				<img src="images/1.png" alt=""/>
 				<div class="wel-pos">
 				</div>
 			</div>
-			<div class="col-md-13 welcome-grid">
+			<div class="col-md-4 welcome-grid">
 				<div class="welcome-gd second">
 					<p>提高中国普通大学生对于心理健康问题的重视，并普及心理健康知识，最后从根本上提升中国大学生的心理素质。
 					</p>
@@ -323,9 +334,6 @@
 <!-- footer -->
 <div class="footer">
 	<div class="container">
-		<div class="footer-left">
-			<p>Copyright &copy; 2015.Company name All rights reserved.More Templates </p>
-		</div>
 		<div class="footer-right">
 			<ul>
 				<li><a href="#" class="twitter"> </a></li>

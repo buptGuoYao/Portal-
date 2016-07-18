@@ -146,7 +146,6 @@
 <div class="footer">
 	<div class="container">
 		<div class="footer-left">
-			<p>Copyright &copy; 2015.Company name All rights reserved.More Templates</p>
 		</div>
 		<div class="footer-right">
 			<ul>
